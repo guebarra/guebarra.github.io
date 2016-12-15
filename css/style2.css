@@ -1,0 +1,88 @@
+body {
+	background-image: url(../img/1.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.starter {
+	width: 40%;
+	max-width: 600px;
+	margin-top: 20%;
+}
+
+.img-logo {
+	width: 100%;
+}
+
+.text-logo {
+	font-family: Arial;
+	font-size: 2.5em;
+	color: #bababb;
+	padding: 1%;
+	display: inline-block;
+	text-shadow: 0px 0px 1px rgba(178, 178, 178, 0.40);
+}
+
+.port {
+	background-image: url(../img/background-port.png);
+	background-size: contain;
+	margin-top: 15%;
+}
+
+.portfolio {
+	width: 50%;
+	float: left;
+	margin: 10% 0;
+	opacity: 0.5;
+}
+
+.portfolio:hover {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.rounded {
+	border-radius: 20px;
+}
+
+.about {
+	margin-top: 5%;
+	width: 50%;
+	float: left;
+}
+
+.about h2 {
+	font-family: Arial;
+	font-size: 2.5em;
+	color: #3f6ff8;
+	text-shadow: 0px 0px 1px rgba(178, 178, 178, 0.40);
+}
+
+.about p {
+	font-family: Arial;
+	font-size: 1.5em;
+	color: #bababb;
+	text-shadow: 0px 0px 1px rgba(178, 178, 178, 0.40);
+	line-height: 1.2em;
+	padding-right: 5%
+}
+
+.footer {
+	margin-top: 10%;
+	background-color: #1b2a55;
+}
+
+.footer img {
+	width: 35%;
+	margin: 2% 0;
+	float: left;
+}
+
+.footer p {
+	font-family: Arial;
+	font-size: 1em;
+	color: #bababb;
+	text-shadow: 0px 0px 1px rgba(178, 178, 178, 0.40);
+	margin-top: 5%;
+	float: right;
+}

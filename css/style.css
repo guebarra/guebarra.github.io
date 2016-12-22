@@ -1,5 +1,5 @@
 body {
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/1.png);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -30,6 +30,7 @@ body {
 
 .port {
 	max-width: 1000px;
+	float: none !important;
 }
 
 .portfolio {

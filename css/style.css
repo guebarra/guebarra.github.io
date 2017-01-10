@@ -1,5 +1,5 @@
 body {
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/1.png);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -15,7 +15,7 @@ body {
 
 .text-logo {
 	font-family: Arial;
-	font-size: 2.5em;
+	font-size: 2.5rem;
 	color: #bababb;
 	padding: 1%;
 	display: inline-block;
@@ -29,7 +29,7 @@ body {
 }
 
 .port {
-	max-width: 1000px;
+	max-width: 900px;
 	float: none !important;
 }
 
@@ -57,14 +57,14 @@ body {
 
 .about h2 {
 	font-family: Arial;
-	font-size: 2.5em;
+	font-size: 2.5rem;
 	color: #3f6ff8;
 	text-shadow: 0px 0px 1px rgba(178, 178, 178, 0.40);
 }
 
 .about p {
 	font-family: Arial;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: #bababb;
 	text-shadow: 0px 0px 1px rgba(178, 178, 178, 0.40);
 	line-height: 1.2em;
@@ -77,14 +77,14 @@ body {
 }
 
 .footer img {
-	width: 35%;
-	margin: 2% 2%;
+	width: 20%;
+	margin: 5%;
 	float: left;
 }
 
 .footer p {
 	font-family: Arial;
-	font-size: 1em;
+	font-size: 1rem;
 	color: #bababb;
 	text-shadow: 0px 0px 1px rgba(178, 178, 178, 0.40);
 	margin: 5% 2%;

@@ -108,7 +108,11 @@ html, body{
 
 
 
-
+@media screen and (max-width: 385px) {
+	.btn-2 {
+		margin-top: 10px;
+	}
+}
 
 @media screen and (max-width: 768px) {
 	.corpo-1 h1{

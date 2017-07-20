@@ -98,3 +98,24 @@ html, body{
 	background-color: #46a3ca;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	.corpo-1 h1{
+		font-size: 5rem;
+	}
+
+	.corpo-1 p{
+		font-size: 3rem;
+	}
+}

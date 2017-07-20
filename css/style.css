@@ -162,6 +162,10 @@ html, body{
 	.corpo-1 p{
 		font-size: 3rem;
 	}
+
+	.container-footer h2{
+		font-size: 4rem;
+	}
 }
 
 @media screen and (min-width: 1200px) {

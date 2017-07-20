@@ -166,6 +166,10 @@ html, body{
 	.container-footer h1{
 		font-size: 4rem;
 	}
+
+	.container-footer h2, .container-footer p{
+		text-align: center;
+	}
 }
 
 @media screen and (min-width: 1200px) {

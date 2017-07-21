@@ -12,7 +12,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -27,15 +27,15 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Início</a></li>
+					<li><a href="#navbar">Início</a></li>
 					<li><a href="#">Portfólio</a></li>
-					<li><a href="#">Mais Informações</a></li>
+					<li><a href="#container-footer">Mais Informações</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div>
 	</nav>
 
-	<section class="container header-site">
+	<section class="container header-site" id="header-site">
 		<img src="img/logo.png" class="col-lg-8 col-lg-offset-2 col-md-10 col col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 	</section>
 
@@ -47,15 +47,15 @@
 			<p class="text-center">Trabalho para servir bem, e servir sempre :-)</p>
 			<div class="buttons text-center">
 				<p>
-				  <button type="button" class="btn btn-lg btn-default btn-1">MEU PORTFÓLIO</button>
-				  <button type="button" class="btn btn-lg btn-default btn-2">MAIS INFO</button>
+				  <a href="#"><button type="button" class="btn btn-lg btn-default btn-1">MEU PORTFÓLIO</button></a>
+				  <a href="#container-footer"><button type="button" class="btn btn-lg btn-default btn-2">MAIS INFO</button></a>
 				</p>
 			</div>
 		</div>
 	</section>
 
 	<section class="background-footer gradient">
-		<div class="container container-footer anime">
+		<div class="container container-footer anime" id="container-footer">
 			<h1 class="text-center">MAIS INFORMAÇÕES</h1>
 			<div class="row">
 				<img src="img/foto.jpg" alt="" class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
@@ -66,11 +66,11 @@
 			</div>
 			
 			<div class="contact">
-				<h2>Contato</h2>
-				<p>marco_vg.96@hotmail.com</p>
+				<h2 class="text-center">Contato</h2>
+				<p><a href="mailto:marco_vg.96@hotmail.com" class="">marco_vg.96@hotmail.com</a></p>
 			</div>
 			<div class="facebook">
-				<a href="#"><img src="img/facebook.png" alt="" class=""></a>
+				<a href="https://www.facebook.com/marcoguebarra" target="_BLANK"><img src="img/facebook.png"></a>
 			</div>
 				
 			

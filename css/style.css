@@ -35,6 +35,10 @@ html, body{
 	color: #d2d2d2;
 }
 
+.navbar-default .navbar-nav > li > a:focus{
+	color: #d2d2d2;
+}
+
 .corpo-1{
 	width: 100%;
 	height: 890px;
@@ -86,7 +90,7 @@ html, body{
 	background-color: #46a3ca;
 }
 
-.btn-default:active{
+.btn-default:focus{
 	color: #1a0d4a;
 	border-color: #46a3ca;
 	background-color: #46a3ca;
@@ -121,6 +125,11 @@ html, body{
 	color: #e9e9e9;
 }
 
+.container-footer a{
+	color: #e9e9e9;
+	text-decoration: underline;
+}
+
 .container-footer img{
 	border-radius: 50%;
 }
@@ -140,8 +149,8 @@ html, body{
 }
 
 .facebook img{
-	width: 67px;
-	height: 67px;
+	width: 57px;
+	height: 57px;
 }
 
 .facebook img:hover{
@@ -151,10 +160,10 @@ html, body{
 
 .gradient{
 	background: #01818c; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(90deg, #01818c, #5b37e4); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(90deg, #01818c, #5b37e4); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(90deg, #01818c, #5b37e4); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(90deg, #01818c, #5b37e4); /* Standard syntax */
+	background: -webkit-linear-gradient(-45deg, #01818c, #5b37e4); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-45deg, #01818c, #5b37e4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-45deg, #01818c, #5b37e4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(-45deg, #01818c, #5b37e4); /* Standard syntax */
 	background-size: contain;
 }
 

@@ -115,9 +115,10 @@ h3{
 	height: 500px;
 	background-image: url(../img/portfolio-1.png); 
 	background-size: cover;
-	background-position: center;
 	margin-top: 20px;
 	margin-bottom: 50px;
+	overflow: hidden;
+	position: relative;
 }
 
 .overlay{
@@ -128,6 +129,7 @@ h3{
 	right: 0;
 	background-color: rgba(26, 13, 74, 0.8);
 	opacity: 0;
+	overflow: hidden;
 }
 
 .overlay p{
@@ -232,7 +234,11 @@ h3{
 	}
 
 	.container-footer h3,
-	.container-footer p{
+	.container-footer a{
 		text-align: center;
+	}
+
+	.container-footer{
+		text-align: justify;
 	}
 }

@@ -7,16 +7,35 @@ html, body{
 h1{
 	font: 7rem 'Roboto', sans-serif;
 	font-weight: 700;
+	color: #e9e9e9;
 }
 
 h2{
 	font: 5rem 'Roboto', sans-serif;
 	font-weight: 700;
+	color: #1a0d4a;
+	margin: 50px 0;
+}
+
+h2:after{
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 30px;
+	border-bottom: 3px solid #1a0d4a;
 }
 
 h3{
 	font: 3rem 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #1a0d4a;
+}
+
+h4{
+	font: 2.5rem 'Roboto', sans-serif;
 	font-weight: 700;
+	color: #e9e9e9;
 }
 
 .header-site img{
@@ -60,7 +79,6 @@ h3{
 
 .corpo-1 h1{
 	margin-top: 150px;
-	color: #e9e9e9;
 }
 
 .corpo-1 p{
@@ -91,6 +109,7 @@ h3{
 	background-color: transparent;
 	border-width: 2px;
 	border-radius: 3px;
+	transition: 0.2s;
 }
 
 .btn-default:hover,
@@ -99,24 +118,7 @@ h3{
 	color: #1a0d4a;
 	border-color: #46a3ca;
 	background-color: #46a3ca;
-}
-
-.corpo-2 h2,
-.corpo-3 h2{
-	color: #1a0d4a;
-}
-
-.corpo-2 h3,
-.corpo-3 h3{
-	margin-top: -10px;
-	font-weight: 300;
-	color: #1a0d4a;
-}
-
-.corpo-3 h4{
-	font: 3rem 'Roboto', sans-serif;
-	font-weight: 700;
-	color: #1a0d4a;
+	transition: 0.2s;
 }
 
 .corpo-3 p{
@@ -126,7 +128,7 @@ h3{
 	margin: 10px 0;
 }
 
-.corpo-3 .comp{
+.corpo-3 .competencias{
 	margin: 2% 0;
 }
 
@@ -185,7 +187,11 @@ h3{
 	margin: 50px 0;
 }
 
-.container-footer h3{
+.container-footer h2:after{
+	border-color: #e9e9e9;
+}
+
+.container-footer h4{
 	color: #e9e9e9;
 }
 
@@ -208,7 +214,7 @@ h3{
 	margin: 20px 0;
 }
 
-.contact h2,
+.contact h4,
 .contact p{
 	text-align: center;
 }
@@ -222,7 +228,7 @@ h3{
 
 .contact a:hover{
 	border-bottom: 1px dashed rgba(233, 233, 233, 1);
-	transition: 0.6s ease;
+	transition: 0.5s ease;
 }
 
 .facebook{
@@ -234,7 +240,7 @@ h3{
 .facebook img{
 	width: 50px;
 	height: 50px;
-	transition: 0.6s ease;
+	transition: 0.2s ease;
 }
 
 .facebook img:hover{
@@ -272,7 +278,7 @@ h3{
 		font-size: 3rem;
 	}
 
-	.container-footer h3,
+	.container-footer h4,
 	.container-footer a{
 		text-align: center;
 	}

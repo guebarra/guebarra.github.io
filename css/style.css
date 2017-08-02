@@ -56,18 +56,33 @@ h4{
 	background-color: #e9e9e9;
 }
 
-.navbar-toggle{
+.navbar-default .navbar-toggle{
 	border-radius: 0;
+	border: none;
+}
+
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+	background-color: #5bbee8;
+	border: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a{
-	font: 15px arial, sans-serif;
+	font: 18px 'Roboto', sans-serif;
+	font-weight: 400;
+	padding: 40px 30px;
 	color: #e9e9e9;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus{
-	color: #d2d2d2;
+	color: #1a0d4a;
+	background-color: #5bbee8;
 }
 
 .corpo-1{

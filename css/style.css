@@ -1,7 +1,7 @@
 html, body{
 	width: 100%;
 	height: 100%;
-	background-color: #e9e9e9;
+	background-color: #fff;
 }
 
 h1{
@@ -13,7 +13,7 @@ h1{
 h2{
 	font: 5rem 'Roboto', sans-serif;
 	font-weight: 700;
-	color: #1a0d4a;
+	color: #e9e9e9;
 	margin: 50px 0;
 }
 
@@ -27,20 +27,21 @@ h2:after{
 }
 
 h3{
-	font: 3rem 'Roboto', sans-serif;
+	font: 4rem 'Roboto', sans-serif;
 	font-weight: 300;
-	color: #1a0d4a;
+	color: #e9e9e9;
 }
 
 h4{
-	font: 2.5rem 'Roboto', sans-serif;
+	font: 3.5rem 'Roboto', sans-serif;
 	font-weight: 700;
 	color: #e9e9e9;
 }
 
-.header-site img{
-	margin-top: 120px;
-	margin-bottom: 120px;
+p{
+	font: 2.5rem 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #e9e9e9;
 }
 
 .navbar{
@@ -49,54 +50,45 @@ h4{
 }
 
 .navbar-default{
-	background-color: #1a0d4a;
+	background-color: #111;
+	margin: 0 !important;
 }
 
 .navbar-default .navbar-toggle .icon-bar{
-	background-color: #e9e9e9;
+	background-color: #fff;
 }
 
 .navbar-default .navbar-toggle{
 	border-radius: 0;
-	border: none;
+	border-color: transparent !important;
+	height: 55px;
 }
 
 .navbar-default .navbar-toggle:active,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover{
-	background-color: #5bbee8;
+	background-color: #4a4c4a;
 	border: none;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-	border-color: transparent;
+	border-color: transparent !important;
 }
 
 .navbar-default .navbar-nav > li > a{
 	font: 18px 'Roboto', sans-serif;
-	font-weight: 400;
-	padding: 40px 30px;
-	color: #e9e9e9;
+	font-weight: 300;
+	padding: 25px 15px;
+	color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus{
-	color: #1a0d4a;
-	background-color: #5bbee8;
+	color: #fff;
+	background-color: #4a4c4a;
 }
 
-.corpo-1{
-	width: 100%;
-	height: 890px;
-	background: url("../img/1.jpg") center center no-repeat; 
-	background-size: cover;
-}
-
-.corpo-1 h1{
-	margin-top: 150px;
-}
-
-.corpo-1 p{
+.left p{
 	font: 4rem 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #e9e9e9;
@@ -113,129 +105,118 @@ h4{
 	transform: translate3d(0, 0, 0);
 }
 
-.buttons{
-	margin-top: 70px;
-}
-
-.btn-default{
-	font-family: Arial, Helvetica, sans-serif;
-	color: #e9e9e9;
-	padding: 15px 25px;
-	background-color: transparent;
-	border-width: 2px;
-	border-radius: 3px;
-	transition: 0.2s;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:visited{
-	color: #1a0d4a;
-	border-color: #46a3ca;
-	background-color: #46a3ca;
-	transition: 0.2s;
-}
-
-.corpo-3 p{
-	font: 2rem 'Roboto', sans-serif;
-	font-weight: 300;
-	color: #1a0d4a;
-	margin: 10px 0;
-}
-
-.corpo-3 .competencias{
-	margin: 2% 0;
-}
-
-.corpo-3 img{
+.corpo-1{
+	height: 700px;
 	width: 100%;
-}
-
-.portfolio{
-	height: 500px;
-	background-image: url(../img/portfolio-1.png); 
+	background: url("../img/1.jpg") center center no-repeat; 
 	background-size: cover;
-	margin-top: 20px;
-	margin-bottom: 50px;
-	overflow: hidden;
-	position: relative;
-	transition: 0.6s ease;
 }
 
-.overlay{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(26, 13, 74, 0.8);
-	opacity: 0;
-	overflow: hidden;
-	transition: 0.6s ease;
+.corpo-1 h3{
+	margin: 40px 0 30px 0;
 }
 
-.overlay p{
-	font: 4rem 'Roboto', sans-serif;
+.corpo-1 p{
+	margin: 30px 0 0 0;
+}
+
+.corpo-2 img{
+	width: 100%;
+	padding: 0px 30px 0px 30px;
+}
+
+.corpo-2 h2{
+	color: #3d7c5b;
+	font-size: 4rem;
+}
+
+.corpo-2 h3{
+	color: #3c9b69;
+	font-size: 3rem;
+}
+
+.corpo-2 h4{
+	color: #12d66f;
+	font-size: 3rem;
+	padding: 30px 0;
+}
+
+.corpo-2 p{
+	font-size: 2rem;
 	font-weight: 300;
-	color: #e9e9e9;
-	position: relative;
-	top: 50%;
+	color: #12d66f;
+	text-align: justify;
 }
 
-.portfolio:hover{
-	-moz-transform: scale(1.02);
-	-webkit-transform: scale(1.02);
-	transform: scale(1.02);
+.corpo-2 h2:after{
+	border-bottom: 3px solid #3d7c5b;
 }
 
-.portfolio:hover .overlay{
-	opacity: 1;
-	transition: 0.6s ease;
+.corpo-2 .cards{
+	padding: 20px;
+	margin: 40px 0;
 }
 
 .background-footer{
 	width: 100%;
 }
 
-.container-footer h2{
+.corpo-3 .row{
+	margin-bottom: 50px;
+}
+
+.corpo-3 h2{
 	color: #e9e9e9;
 	margin: 50px 0;
 }
 
-.container-footer h2:after{
+.corpo-3 h2:after{
 	border-color: #e9e9e9;
 }
 
-.container-footer h4{
+.corpo-3 h4{
 	color: #e9e9e9;
 }
 
-.container-footer p{
+.corpo-3 p{
 	font: 2rem 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #e9e9e9;
+	text-align: justify;
 }
 
-.container-footer a{
+.corpo-3 a{
 	color: #e9e9e9;
 	text-decoration: underline;
 }
 
-.container-footer img{
+.corpo-3 img{
 	border-radius: 50%;
+	
+}
+
+.corpo-4 {
+	width: 100%;
+	background-color: #111;
 }
 
 .contact{
-	margin: 20px 0;
+	padding: 40px 0;
 }
 
+.contact,
 .contact h4,
 .contact p{
 	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.contact h4{
+	margin-bottom: 20px;
 }
 
 .contact a{
-	padding-bottom: 3px;
 	text-decoration: none;
 	border-bottom: 1px dashed rgba(233, 233, 233, 0.3);
 	transition: 0.6s ease;
@@ -246,22 +227,6 @@ h4{
 	transition: 0.5s ease;
 }
 
-.facebook{
-	text-align: center;
-	margin: 10px auto;
-	display: block;
-}
-
-.facebook img{
-	width: 50px;
-	height: 50px;
-	transition: 0.2s ease;
-}
-
-.facebook img:hover{
-	background-color:rgba(233, 233, 233, 0.2);
-	transition: 0.6s ease;
-}
 
 .gradient{
 	background: #01818c;
@@ -274,12 +239,6 @@ h4{
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 385px) {
-	.btn-2 {
-		margin-top: 10px;
-	}
-}
-
 @media screen and (max-width: 768px) {
 	h1{
 		font-size: 5rem;
@@ -289,8 +248,21 @@ h4{
 		font-size: 4rem;
 	}
 
-	.corpo-1 p{
+	h3{
 		font-size: 3rem;
+	}
+
+	p{
+		font-size: 2.5rem;
+	}
+
+	.corpo-1 p{
+		text-align: justify;
+	}
+
+	.header-site img{
+		margin-top: 150px;
+		margin-bottom: 70px;
 	}
 
 	.container-footer h4,
@@ -300,5 +272,31 @@ h4{
 
 	.container-footer{
 		text-align: justify;
+	}
+
+	.cards img{
+		padding: 0 100px;
+	}
+
+	.corpo-3 h4{
+		text-align: center;
+	}
+
+	.corpo-3 img{
+		padding: 0 100px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.cards img{
+		padding: 0 200px;
+	}
+
+	.corpo-3 h4{
+		text-align: center;
+	}
+
+	.corpo-3 img{
+		padding: 0 200px;
 	}
 }

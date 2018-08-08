@@ -240,22 +240,31 @@ p{
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 768px) {
-	h1{
-		font-size: 5rem;
-	}
 
-	h2{
+	h1{
 		font-size: 4rem;
 	}
 
+	h2{
+		font-size: 3rem !important;
+	}
+
 	h3{
-		font-size: 3rem;
+		font-size: 2.5rem !important;
+	}
+
+	h4{
+		font-size: 2.2rem;
 	}
 
 	p{
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
+	.corpo-1{
+		height: 550px;
+	}
+	
 	.corpo-1 p{
 		text-align: justify;
 	}
@@ -274,8 +283,12 @@ p{
 		text-align: justify;
 	}
 
+	.corpo-2 .cards{
+		margin: 0;
+	}
+
 	.cards img{
-		padding: 0 100px;
+		padding: 0 50px;
 	}
 
 	.corpo-3 h4{
